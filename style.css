@@ -1,0 +1,106 @@
+body{
+	margin: 0%;
+	padding: 0%;
+	font-family: 'source code pro', Calibri, serif;
+}
+.contenere{
+
+	width: 100%;
+	height: 100vh;
+
+   background-image: linear-gradient(rgba(0,0,0,0.5),#0110),  url(pic/tourisme-france.jpg);
+   background-repeat: no-repeat; 
+   background-size: cover;
+   background-position: center;
+   
+  
+}
+
+
+nav ul{
+display: flex;
+clear: both;
+}
+nav .p{
+	list-style-type: none;
+	width: 70px;
+	
+}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+}
+nav ul .p:hover a{ 
+ padding:4px 4px; 
+box-shadow: 2px 2px 12px rgba(19,18,13,12);
+}
+nav ul .p a{
+	
+
+	padding: 2px 2px 2px 2px;
+	color: #fff; 
+	width: 50px;
+	text-align: center;
+
+}
+nav{
+
+	box-shadow: 2px 2px 12px rgba(12,12,23,12);
+	margin-top:0px;
+	
+	width: 100%;
+	background-color: rgba(000, 000, 000, 0.0);
+	height: 65px;
+	position: fixed;
+}
+ul {
+float: right;
+}
+h1 {
+text-align: center;
+font-size:60px;
+color: white;
+font-family: Times New Roman;
+}
+
+h2{
+text-align: center;
+font-size:30px;
+color: white;
+font-family: Times New Roman;
+}
+
+p{
+
+
+text-align: center;
+font-size:15px;
+color: white;
+font-family: Times New Roman;
+
+}
+
+
+nav ul{
+display: flex;
+clear: both;
+}
+nav .p1{
+	list-style-type: none;
+	width: 70px;
+	
+}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+}
+
+nav ul .p1 a{
+	
+box-shadow: 1px 5px 30px 5px rgba(19,18,13,12);
+	padding: 4px 4px ;
+	color: #fff; 
+	width: 50px;
+	text-align: center;
+
+}
